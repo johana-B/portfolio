@@ -396,9 +396,13 @@ Hero
   margin-top: 1.25rem;
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:738px) {
   .hero-img {
     display: block;
+    position: relative;
+  }
+
+  .about-img {
     position: relative;
   }
 
@@ -842,17 +846,26 @@ Skills
   opacity: 0.3;
 }
 
+.single-page {
+  background: var(--clr-primary-10);
+  min-height: calc(100vh- 5rem- 198px);
+}
 
-/*
-=============== 
-Footer
-===============
-*/
-/*
-=============== 
-Single Page
-===============
-*/
+.page-info {
+  max-width: 700px;
+}
+
+.page-info a {
+  text-transform: uppercase;
+  color: var(--clr-grey-1);
+  transition: var(--transition);
+}
+
+.page-info a:hover {
+  text-transform: uppercase;
+  color: var(--clr-primary-5);
+  transition: var(--transition);
+}
 
 /*
 =============== 
